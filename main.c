@@ -1,18 +1,20 @@
 #include <stdio.h>
 
 int main(){
-    int a = 10;
-    float y = 15.3;
-    int h = 12;
-    if (a > y){
-        printf("Hello, World!\n");
-    }
-    else if (h > y)
-        printf("No\n");
-    else
-        printf("23");
+    int n;
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
 
-// testing commit
-    return 0;
+    int a[n];
+
+    printf("Wirte elements ");
+    for(int i = 0; i < n; i++){
+        scanf("%d", &a[i]);
+    }
+
+    int non-unque = 0;
+    int unque = 0;
+
+
 
 }
